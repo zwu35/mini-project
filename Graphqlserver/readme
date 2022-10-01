@@ -1,1 +1,3 @@
 The file in this folder are used to create Graphlq Server
+states.graphql is the schema file.
+server.py to build server.
