@@ -1,0 +1,12 @@
+type State {  
+    id: ID!
+    name: String!
+}
+
+type Query {  
+    states: [State!]!
+}
+
+type Mutation {  
+  add(name: String!): State!
+}
